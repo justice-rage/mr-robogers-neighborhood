@@ -1,5 +1,6 @@
 // business logic
 
+
 // STEP 1 - COMPLETE
 // PUSH OUTPUT 0 TO X NUMBER INTO AN ARRAY
 
@@ -19,8 +20,23 @@ let capturedRangeConvertedToString = capturedRange.toString();
 
 // -----------------------------------
 
-// STEP 3 - COMPLETE
+// POTENTIAL STEP 3 - COMPLETE
 // SPLIT SINGLE STRING BY COMMAS
 let finalNumberToStringTransformation = capturedRangeConvertedToString.split(",")
+
+// STEP 3 - INCOMPLETE
+// Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+// .toString and .includes - attempt to include together
+
+oneIsBeep = function turnOneIntoBeepr(number)  {
+  let translation = []
+
+  for (let index = 0; index <= number; index++) {
+    if (index.toString().includes("1")) {
+      translation.push("Beep!");
+    };
+  }
+  return translation
+}
 
 // user interface logic
