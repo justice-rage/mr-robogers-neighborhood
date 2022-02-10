@@ -16,8 +16,8 @@
 
 ### Describe: oneIsBeep()
 
-* Test 1: "It will replace all numbers containing 1 with "Beep!"
-* Code: number = 5; oneIsBeep(number);
-* Expected Output: '0', 'Beep!', '2', '3', '4', '5'
+* Test 1: "It will replace numbers that include 1 with "Beep!" and push them into a new array"
+* Code: number = 15; oneIsBeep(number);
+* Expected Output: 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'
 
 - - -
