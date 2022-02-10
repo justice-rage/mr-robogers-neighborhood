@@ -1,6 +1,6 @@
 ## Tests:
 
-### Describe:
+### Describe: roboTranslator()
 
 * Test: "It will return a range of numbers from 0 to the user inputted number"
 * Code: number = 5; roboTranslator(number);
