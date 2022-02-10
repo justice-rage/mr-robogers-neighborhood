@@ -25,3 +25,9 @@
 * Test 2: "It will replace numbers that include 2 with "Boop" and push them into a new array"
 * Code: number = 15; roboTranslator(number);
 * Expected Output: 'Beep!', 'Boop!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'
+
+- - -
+
+* Test 3: "It will replace numbers that include 3 with "Won't you be my neighbor?" and push them into a new array"
+* Code: number = 15; roboTranslator(number);
+* Expected Output: 'Beep!', 'Boop!', "Won't you be my neighbor?", 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'
