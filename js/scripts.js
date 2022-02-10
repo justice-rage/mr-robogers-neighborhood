@@ -35,7 +35,9 @@ roboTranslator = function translator(number)  {
     if (index.toString().includes("1")) {
       translation.push("Beep!");
     } else if (index.toString().includes("2")) {
-      translation.push("Boop!")
+      translation.push("Boop!");
+    } else if (index.toString().includes("3")) {
+      translation.push("Won't you be my neighbor?");
     }
   }
   return translation
