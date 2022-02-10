@@ -21,4 +21,25 @@ captureNumberRange = function returnZeroToNumber(number)  {
   }
 }
 
+// -----------------------------------
+
+// TURN ARRAY OF NUMBERS INTO A STRING
+
+// Step 3
+// COMPLETE: convert all numbers in capturedRange to a string
+// capturedRange.toString();
+
+let capturedRangeConvertedToString = [];
+
+convertCapturedRangeToString = function convertNumbersToString(array) {
+  capturedRangeConvertedToString.push(array.toString());
+}
+
+// -----------------------------------
+
+// TURN STRING BACK INTO ARRAY
+// capturedRange.toString(); transforms entire array into a string
+
+
+
 // user interface logic
