@@ -28,7 +28,7 @@ let finalNumberToStringTransformation = capturedRangeConvertedToString.split(","
 // Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 // .toString and .includes - attempt to include together
 
-oneIsBeep = function turnOneIntoBeepr(number)  {
+roboTranslator = function turnOneIntoBeepr(number)  {
   let translation = []
 
   for (let index = 0; index <= number; index++) {
