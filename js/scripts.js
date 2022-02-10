@@ -37,4 +37,6 @@ let capturedRangeConvertedToString = capturedRange.toString();
 // SPLIT SINGLE STRING BY COMMAS
 // capturedRangeConvertedToString.split(","); splits array by commas
 
+let finalNumberToStringTransformation = capturedRangeConvertedToString.split(",")
+
 // user interface logic
