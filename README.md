@@ -14,7 +14,7 @@
 
 - - -
 
-### Describe: oneIsBeep()
+### Describe: roboTranslator()
 
 * Test 1: "It will replace numbers that include 1 with "Beep!" and push them into a new array"
 * Code: number = 15; oneIsBeep(number);
