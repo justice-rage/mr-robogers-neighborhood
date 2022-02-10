@@ -38,6 +38,8 @@ roboTranslator = function translator(number)  {
       translation.push("Boop!");
     } else if (index.toString().includes("3")) {
       translation.push("Won't you be my neighbor?");
+    } else {
+      translation.push(index);
     }
   }
   return translation
