@@ -28,13 +28,15 @@ let finalNumberToStringTransformation = capturedRangeConvertedToString.split(","
 // Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 // .toString and .includes - attempt to include together
 
-roboTranslator = function turnOneIntoBeepr(number)  {
+roboTranslator = function translator(number)  {
   let translation = []
 
   for (let index = 0; index <= number; index++) {
     if (index.toString().includes("1")) {
       translation.push("Beep!");
-    };
+    } else if (index.toString().includes("2")) {
+      translation.push("Boop!")
+    }
   }
   return translation
 }
