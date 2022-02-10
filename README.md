@@ -13,3 +13,11 @@
 * Expected Output: capturedRange = [0, 1, 2, 3, 4, 5];
 
 - - -
+
+### Describe: oneIsBeep()
+
+* Test 1: "It will replace all numbers containing 1 with "Beep!"
+* Code: number = 5; oneIsBeep(number);
+* Expected Output: '0', 'Beep!', '2', '3', '4', '5'
+
+- - -
