@@ -1,6 +1,6 @@
 ## Tests:
 
-### Desbribe:
+### Describe:
 
 * Test:
 * Code:
