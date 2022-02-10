@@ -17,7 +17,11 @@
 ### Describe: roboTranslator()
 
 * Test 1: "It will replace numbers that include 1 with "Beep!" and push them into a new array"
-* Code: number = 15; oneIsBeep(number);
+* Code: number = 15; roboTranslator(number);
 * Expected Output: 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'
 
 - - -
+
+* Test 2: "It will replace numbers that include 2 with "Boop" and push them into a new array"
+* Code: number = 15; roboTranslator(number);
+* Expected Output: 'Beep!', 'Boop!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!'
