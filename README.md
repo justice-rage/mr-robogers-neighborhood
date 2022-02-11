@@ -24,8 +24,8 @@ _A web application that takes a number from the user and returns a range of numb
 
 ## Known Bugs
 
-* _Letters and symbols return nothing._
-* _Anything below 1 returns nothing._
+* _Inputted letters and symbols return nothing._
+* _Any number inputted with a value below 1 returns nothing unless it is inputted as "zero point number" or as a visual example 0.1, 0.5, etc._
 
 ## Tests:
 
