@@ -14,7 +14,7 @@
 
 ## Description
 
-_{A web application that takes a number from the user and returns a range of numbers from 0 to the user inputted number with numbers that contain a 1 are replaced (all digits) with "Beep!", numbers that contain a 2 are replaced (all digits) with "Boop!", and numbers that contain a 3 are replaced (all digits) with "Won't you be my neighbor?"}_
+_A web application that takes a number from the user and returns a range of numbers from 0 to the user inputted number with numbers that contain a 1 are replaced with "Beep!", numbers that contain a 2 are replaced with "Boop!", and numbers that contain a 3 are replaced with "Won't you be my neighbor?"_
 
 ## Setup/Installation Requirements
 
