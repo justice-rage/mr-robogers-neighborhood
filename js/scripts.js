@@ -18,3 +18,12 @@ roboTranslator = function translator(number)  {
 }
 
 // user interface logic
+
+$(document).ready(function() {
+  $("form#input-form").submit(function() {
+    event.preventDefault();
+    const userNumber = parseInt($("input#user-input").val());
+
+    $(".result").text(roboTranslator(userNumber));
+  });
+});
