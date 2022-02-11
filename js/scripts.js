@@ -23,7 +23,10 @@ $(document).ready(function() {
   $("form#input-form").submit(function() {
     event.preventDefault();
     const userNumber = parseInt($("input#user-input").val());
+    const translatedInput = roboTranslator(userNumber);
+    const userInputStringForm = translatedInput.toString();
+    const cleanedUserInput = userInputStringForm.replace(/,/g,' ');
 
-    $(".result").text(roboTranslator(userNumber));
+    $(".result").text(cleanedUserInput);
   });
 });
