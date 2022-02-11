@@ -28,24 +28,7 @@ let finalNumberToStringTransformation = capturedRangeConvertedToString.split(","
 // Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 // .toString and .includes - attempt to include together
 
-roboTranslator = function translator(number)  {
-  let translation = []
-
-  for (let index = 0; index <= number; index++) {
-    if (index.toString().includes("1")) {
-      translation.push("Beep!");
-    } else if (index.toString().includes("2")) {
-      translation.push("Boop!");
-    } else if (index.toString().includes("3")) {
-      translation.push("Won't you be my neighbor?");
-    } else {
-      translation.push(index);
-    }
-  }
-  return translation
-}
-
-// hierarchy testing
+// hierarchy testing complete
 roboTranslator = function translator(number)  {
   let translation = []
 
