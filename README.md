@@ -42,3 +42,9 @@
 * Test 5: "If a 3 and 2 are present in a number, the 3 will take precedent and it will be replaced with "Won't you be my neighbor?"
 * Code: number = 15; roboTranslator(number);
 * Expected Output: '0', 'Beep!', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Beep!', 'Won't you be my neighbor?', 'Beep!', 'Beep!'
+
+- - -
+
+* Test 6: "If a 2 and 1 are present in a number, the 2 will take precedent and it will be replaced with "Boop"
+* Code: number = 15; roboTranslator(number);
+* Expected Output: 0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor?", 'Beep!', 'Beep!']
