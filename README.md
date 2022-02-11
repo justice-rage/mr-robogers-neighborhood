@@ -18,7 +18,7 @@ _A web application that takes a number from the user and returns a range of numb
 
 ## Setup/Installation Requirements
 
-1. _Clone project from Github repository to locl machine._
+1. _Clone project from Github repository to local machine._
 2. _Navigate to your file manager and click on the HTML file to open in your browser._
 3. _You should now be able to input a number and receive Mr. Roboger's translation._
 
