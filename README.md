@@ -1,8 +1,8 @@
-# _{Mr. Roboger's Neighborhood}_
+# _Mr. Roboger's Neighborhood_
 
-#### By _**{Justice Douglas}**_
+#### By _**Justice Douglas**_
 
-#### _{A web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with some slight alterations made within the range.}_
+#### _A web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with some slight alterations made within the range._
 
 ## Technologies Used
 
