@@ -13,24 +13,19 @@
     <div>
       <h1>Mr. Roboger's Neighborhood</h1>
 
-      <p class="instructions">Enter any number of your choice and you will be returned a range of numbers with some minor substituions made to make Mr. Roboger's life easier:</p>
+      <p class="instructions">Enter any number of your choice in the input field below and you will be returned a range of numbers with some minor substituions made to make Mr. Roboger's life easier!</p>
       <!-- language selector questions -->
         <div>
           <div class="container">
             <h2>Robo Translator</h2>
-          <form id="translator">
-            <div class="form-group">
-              <p>Optionally enter a word to count the number of times it occurs in the passage:</p>
-              <input type="text" id="word" name="word" class="form-control">
-              <br>
-              <button type="submit" class="btn btn-success">Submit</button>
-            </div>
-          </form>
-        
-      <!-- language results -->
-      <div id="roboTranslator-result" class="hidden">
-        <h2>Result</h2>
-        <p class="input-result"></p>
+            <form id="input-form">
+              <label for="user-input">Your input:</label>
+              <input id="user-input" type="text">
+            
+              <button type="submit" class="btn">Submit!</button>
+            </form>
+      <!-- results -->
+      <div class="result">
       </div>
     </div>
   </div>
