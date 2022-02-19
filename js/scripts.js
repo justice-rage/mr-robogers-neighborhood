@@ -20,7 +20,7 @@ roboTranslator = function translator(number)  {
 // user interface logic
 
 $(document).ready(function() {
-  $("form#input-form").submit(function() {
+  $("form#input-form").submit(function(event) {
     event.preventDefault();
     const userInput = parseInt($("input#user-input").val());
     const translatedInput = roboTranslator(userInput);
